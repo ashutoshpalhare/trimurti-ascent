@@ -1,4 +1,3 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
 import { ReactNode } from "react";
 
 export function PageHero({ eyebrow, title, description }: { eyebrow: string; title: string; description?: string }) {
@@ -25,6 +24,3 @@ export function SectionTitle({ eyebrow, title, children }: { eyebrow?: string; t
   );
 }
 
-// Placeholder so this file is a valid module to import by routes if needed
-export const _ph = createFileRoute;
-export const _ln = Link;
